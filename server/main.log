@@ -1,4 +1,0 @@
-[GIN-debug] GET   /ping                     --> main.setupRouter.func1 (3 handlers)
-[GIN-debug] GET   /user/:name               --> main.setupRouter.func2 (3 handlers)
-[GIN-debug] Listening and serving HTTP on :8080
-[GIN] 2018/05/15 - 21:01:16 |[97;42m 200 [0m|    217.497µs | [::1]:56109 |[97;44m  [0m GET     /user/macro
