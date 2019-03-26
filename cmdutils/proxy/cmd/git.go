@@ -68,11 +68,6 @@ var gitStatusCmd = &cobra.Command{
 	Args: cobra.NoArgs,
 }
 
-var gCmd = &cobra.Command{
-	Use: "off",
-	Short: "cancle the ",
-}
-
 func gitOn(port string) {
 	if err := exec.Command("git", "config", "--global", "http.proxy", "socks5://127.0.0.1:"+port).Run(); err != nil {
 		fmt.Println(err)
